@@ -1,0 +1,33 @@
+# /etc/conf.d/africanbitcoind: config file for /etc/init.d/africanbitcoind
+
+# Config file location
+#AFRICANBITCOIND_CONFIGFILE="/etc/africanbitcoin/africanbitcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $AFRICANBITCOIND_USER)
+#AFRICANBITCOIND_PIDDIR="/var/run/africanbitcoind"
+
+# What filename to give the pidfile
+#AFRICANBITCOIND_PIDFILE="${AFRICANBITCOIND_PIDDIR}/africanbitcoind.pid"
+
+# Where to write africanbitcoind data (be mindful that the blockchain is large)
+#AFRICANBITCOIND_DATADIR="/var/lib/africanbitcoind"
+
+# User and group to own africanbitcoind process
+#AFRICANBITCOIND_USER="africanbitcoin"
+#AFRICANBITCOIND_GROUP="africanbitcoin"
+
+# Path to africanbitcoind executable
+#AFRICANBITCOIND_BIN="/usr/bin/africanbitcoind"
+
+# Nice value to run africanbitcoind under
+#AFRICANBITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#AFRICANBITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for africanbitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+AFRICANBITCOIND_SIGTERM_TIMEOUT=600
