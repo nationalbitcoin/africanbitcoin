@@ -1,0 +1,10 @@
+Package: africanbitcoin-full
+Version: VERSION
+Architecture: ARCH
+Maintainer: National Bitcoin project <admin@nationalbitcoin.org>
+Conflicts: africanbitcoin-clionly, africanbitcoin-qtonly
+Depends: libc6 (>= 2.29), libgcc1, libexpat1, libxcb1, zlib1g, libXau6, libfreetype6, libfontconfig1, libpng16-16, libuuid1, libxdmcp6, libbsd0
+Installed-Size: 52409
+Homepage: http://africanbitcoin.nationalbitcoin.org
+Description: This package provides African Bitcoin Core console tools as well as africanbitcoin-qt, a GUI version of full node software for african Bitcoin peer-to-peer network.
+ This package provides African Bitcoin Core console tools africanbitcoin-cli, africanbitcoin-tx, africanbitcoin-wallet and africanbitcoind. It also includes a tool africanbitcoin-qt, a GUI version of full node software for African Bitcoin peer-to-peer network.

@@ -1,0 +1,10 @@
+Package: africanbitcoin-clionly
+Version: VERSION
+Architecture: ARCH
+Maintainer: National Bitcoin project <admin@nationalbitcoin.org>
+Conflicts: africanbitcoin-full
+Depends: libc6 (>= 2.29), libgcc1
+Installed-Size: 19963
+Homepage: http://africanbitcoin.nationalbitcoin.org
+Description: This package provides African Bitcoin Core console tools.
+ This package provides African Bitcoin Core console tools: africanbitcoin-cli, africanbitcoin-tx, africanbitcoin-wallet and africanbitcoind.
